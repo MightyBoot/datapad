@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datapad - Crypto Earning Platform</title>
+    <meta name="description" content="Datapad - Your gateway to crypto earnings through offers and rewards">
+    <meta name="keywords" content="crypto, earning, datapad, offers, rewards, cryptocurrency">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">DATAPAD</h1>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#offers" class="nav-link">Offers</a>
+                <a href="#rewards" class="nav-link">Rewards</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Earn Crypto with <span class="highlight">Datapad</span></h2>
+                    <p class="hero-description">Complete offers, earn rewards, and unlock the power of cryptocurrency. Your gateway to digital wealth starts here.</p>
+                    <button class="cta-button" onclick="scrollToOffers()">Start Earning Now</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">$50K+</span>
+                        <span class="stat-label">Paid Out</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offers Section -->
+        <section id="offers" class="offers-section">
+            <div class="container">
+                <h2 class="section-title">Available Offers</h2>
+                <p class="section-description">Complete tasks and earn cryptocurrency rewards instantly</p>
+                
+                <!-- Offerwall Container -->
+                <div class="offerwall-container">
+                    <div class="offerwall-header">
+                        <h3>Premium Offerwall</h3>
+                        <div class="status-indicator">
+                            <span class="status-dot"></span>
+                            <span>Live</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Sample Offerwall Iframe -->
+                    <div class="iframe-container">
+                        <iframe 
+                            src="data:text/html,<html><body style='margin:0;padding:20px;background:%23111;color:%23ff0000;font-family:Arial;text-align:center;'><h2 style='color:%23ff0000;'>Offerwall Loading...</h2><p style='color:%23ccc;'>Complete surveys, watch videos, and download apps to earn crypto rewards.</p><div style='margin-top:30px;'><div style='background:%23222;border:1px solid %23ff0000;border-radius:8px;padding:15px;margin:10px 0;'><strong>Survey Offer</strong><br/>Reward: 50 DPAD<br/><button style='background:%23ff0000;color:white;border:none;padding:8px 16px;border-radius:4px;margin-top:8px;cursor:pointer;'>Complete</button></div><div style='background:%23222;border:1px solid %23ff0000;border-radius:8px;padding:15px;margin:10px 0;'><strong>App Download</strong><br/>Reward: 100 DPAD<br/><button style='background:%23ff0000;color:white;border:none;padding:8px 16px;border-radius:4px;margin-top:8px;cursor:pointer;'>Complete</button></div><div style='background:%23222;border:1px solid %23ff0000;border-radius:8px;padding:15px;margin:10px 0;'><strong>Video Rewards</strong><br/>Reward: 25 DPAD<br/><button style='background:%23ff0000;color:white;border:none;padding:8px 16px;border-radius:4px;margin-top:8px;cursor:pointer;'>Watch</button></div></div></body></html>"
+                            title="Datapad Offerwall"
+                            class="offerwall-iframe">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Features Grid -->
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Targeted Offers</h3>
+                        <p>High-paying offers tailored to your interests and location</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Instant Payouts</h3>
+                        <p>Receive your crypto rewards immediately after completion</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Secure Platform</h3>
+                        <p>Bank-level security for all your transactions and data</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rewards Section -->
+        <section id="rewards" class="rewards-section">
+            <div class="container">
+                <h2 class="section-title">Your Rewards Dashboard</h2>
+                <div class="dashboard">
+                    <div class="balance-card">
+                        <h3>Current Balance</h3>
+                        <div class="balance-amount">
+                            <span class="currency">DPAD</span>
+                            <span class="amount">0.00</span>
+                        </div>
+                        <button class="withdraw-btn">Withdraw</button>
+                    </div>
+                    <div class="recent-activity">
+                        <h3>Recent Activity</h3>
+                        <div class="activity-list">
+                            <div class="activity-item">
+                                <span class="activity-desc">Welcome Bonus</span>
+                                <span class="activity-amount">+10 DPAD</span>
+                            </div>
+                            <div class="activity-item">
+                                <span class="activity-desc">Registration Complete</span>
+                                <span class="activity-amount">+5 DPAD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>DATAPAD</h3>
+                    <p>Your trusted crypto earning platform</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Support</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Datapad. Powered by Crypto.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
